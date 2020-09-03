@@ -31,6 +31,31 @@ client.on("message", function(message) {
         const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/457008618110451722/745677591855366174/eeveewatersmug.png');
         message.channel.send(attachment);
     }
+    
+    else if (command === "hello") {
+        const attachment = new Discord.MessageAttachment('https://media2.giphy.com/media/xT5LMvTWblNaHIR3dm/giphy.gif');
+        message.channel.send(attachment);
+    }
+
+    else if (command === "yawn") {
+        const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/744939839559958638/750932752110452867/raw.gif');
+        message.channel.send(attachment);
+    }
+
+    else if (command === "hug") {
+        const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/744939839559958638/750935842310062175/gSGeZJF.gif');
+        message.channel.send(attachment);
+    }
+
+    else if (command === "embrace") {
+        const attachment = new Discord.MessageAttachment('https://i.imgur.com/snm8S1B.gif');
+        message.channel.send(attachment);
+    }
+
+    else if (command === "nope") {
+        const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/744939839559958638/750945932467503134/nope.gif');
+        message.channel.send(attachment);
+    }
 });      
 
 client.login(config.BOT_TOKEN);
