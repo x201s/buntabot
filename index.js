@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
 const client = new Discord.Client();
-const { Client, MessageAttachment } = require('discord.js');
 
 const prefix = ".";
 
@@ -29,7 +28,7 @@ client.on("message", function(message) {
     }
 
     else if (command === "smug") {
-        const attachment = new MessageAttachment('https://cdn.discordapp.com/attachments/457008618110451722/745677591855366174/eeveewatersmug.png');
+        const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/457008618110451722/745677591855366174/eeveewatersmug.png');
         message.channel.send(attachment);
     }
 });      
