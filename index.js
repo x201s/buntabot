@@ -22,6 +22,10 @@ client.on("message", function(message) {
         const sum = numArgs.reduce((counter, x) => counter += x);
         message.reply(`The sum of all the arguments you provided is ${sum}!`);
       }
+    
+    else if (command === "avatar") {
+        message.reply(message.author.displayAvatarURL());
+      }
 });      
 
 client.login(config.BOT_TOKEN);
