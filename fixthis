@@ -26,9 +26,12 @@ client.on("message", function(message) {
         message.reply(`Total sum: ${sum}!`);
     }
 
-    else if (command === "avatar") {
+    else if (command === "a") {
         message.reply(message.author.displayAvatarURL({dynamic:true,size:4096}));
     }
+    
+    else if (command === "avatar") {
+      message.channel.send(message.mentions.users.first().displayAvatarURL({dynamic:true,size:4096}));
 
     else if (command === "smug") {
         const attachment = new Discord.MessageAttachment('https://cdn.discordapp.com/attachments/457008618110451722/745677591855366174/eeveewatersmug.png');
