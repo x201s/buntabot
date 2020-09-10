@@ -139,7 +139,7 @@ else if (message.content === `${prefix}server`) {
         const exampleEmbed = {
           color: 0x0099ff,
           title: 'Hypnospace Outlaw [0100959010466000]',
-          url: 'https://drive.google.com/file/d/1_fe12OgqvZhn_sr1VkKfAB5ntSoVuWaf/view?usp=sharing',
+          url: 'abc123,
           description: 'Greetings Enforcer, and thank you for enlisting in the Hypnospace Patrol Department! As the world falls into its slumber, Hypnospace becomes a bustling global village.',
           thumbnail: {
             url: 'https://img-eshop.cdn.nintendo.net/i/1d3821b3e9e03ee4e03eb04f966f222f40f2cfb3c626f674ea93ab9f074bfb95.jpg',
